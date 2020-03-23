@@ -1,4 +1,6 @@
-let myName = 'Paul';
-let myCity = 'Barcelona';
+let newVariable = 'Playing around with typeof.';
 
-console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
+console.log(typeof newVariable);
+newVariable = 1;
+
+console.log(typeof newVariable);
